@@ -22,14 +22,16 @@ while opcion != "0":
         print("cargando datos...")
         nombre = input("Ingrese el nombre del producto: ")
         stock = int( input("Ingrese el stock: ") )
-        nuevo_producto = [nombre, stock]
+        precio = int( input("Ingrese el precio: ") )
+        nuevo_producto = [nombre, stock, precio]
         # aca se pueden hacer validaciones
         productos.append(nuevo_producto)
 
     elif opcion == "2":
         # MOSTRAR DATOS
         print("mostrando datos")
-        print(productos)
+        for producto in productos:
+            print(f"Producto: {producto[0]} - Stock: {producto[1]}")
 
     elif opcion == "0":
         print("Gracias por usar la app")
