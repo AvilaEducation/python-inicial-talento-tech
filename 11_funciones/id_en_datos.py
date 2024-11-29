@@ -5,15 +5,12 @@ proximo_id = 1
 
 productos = [
     {"nombre": "pc", "stock": 5},
-    {
-        "nombre": "reloj",
-        "stock": 7
-    },
+    {"nombre": "reloj", "stock": 7},
     {"nombre": "celu", "stock": 5},
-     {"nombre": "celu", "stock": 5},
-      {"nombre": "celu", "stock": 5},
-       {"nombre": "celu", "stock": 5},
-        {"nombre": "celu", "stock": 5}
+    {"nombre": "celu", "stock": 5},
+    {"nombre": "celu", "stock": 5},
+    {"nombre": "celu", "stock": 5},
+    {"nombre": "celu", "stock": 5},
 ]
 
 # agregar producto
